@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type="text/css" href="test2.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="j2.js"></script>
+</head>
+<body>
+
+<div id="form_" class="tabcontent">
+
+<p id="head_1">
+Fill in the exam details
+</p>
+
+<form action="p2_data.php" method="POST" id="form_2">
+
+<br>
+<label>Date:&emsp;&nbsp;&nbsp;<label>
+<input type = "date" name="date"><br><br>
+
+<label>Year:&emsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <select name = "year">
+	     <option value="I">Ist year</option>
+             <option value="II">IIrd year</option>
+             <option value="III">IIIrd year</option>
+             <option value="IV">IVth year</option>
+          </select><br><br>
+
+<label>Branch:&emsp;</label>
+ <select name = "branch">
+	     <option value="CSE">CSE</option>
+             <option value="IT">IT</option>
+             <option value="ECE">ECE</option>
+             <option value="EEE">EEE</option>
+             <option value="E&I">E&I</option>
+             <option value="MECH">MECH</option>
+            </select><br><br>
+
+<label>Number of students:&emsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="textbox" placeholder="No.of Students"> <br><br>
+<label>Upload your file for allocation</label>
+<input type="file" id="myFile" name="filename"><br>
+<input type = "submit" value="ALLOCATE">
+
+</form>
+</div>
+
+
+
+</body>
+</html>
